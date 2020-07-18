@@ -16,9 +16,9 @@ var pdfjsLib = window["pdfjs-dist/build/pdf"];
 // The workerSrc property shall be specified.
 pdfjsLib.GlobalWorkerOptions.workerSrc = "{{ asset('js/pdf_js_lib/pdf.worker.js') }}";
 
-$("#myPdf").on("change", function(e){
+$(document).ready(function(){
+    $("#myPdf").on("change", function(e){
     var file = e.target.files[0];
-    console.log('111111111111111111111111111111111111111111111');
     if(file.type == "application/pdf"){
         var fileReader = new FileReader();
         fileReader.onload = function() {
@@ -33,7 +33,7 @@ $("#myPdf").on("change", function(e){
             pdf.getPage(pageNumber).then(function(page) {
                 console.log('Page loaded');
 
-                var scale = 1.5;
+                var scale = 0.5;
                 var viewport = page.getViewport({scale: scale});
 
                 // Prepare canvas using PDF page dimensions
@@ -60,6 +60,11 @@ $("#myPdf").on("change", function(e){
         fileReader.readAsArrayBuffer(file);
     }
 });
+
+
+});
+
+
 </script>
 @endsection
 
