@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('asset__01')
+{{-- @section('asset__01')
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/pdf_js_lib/pdf.js') }}"></script>
-@endsection
+@endsection --}}
 
 @section('content')
 <input type="file" id="myPdf">
