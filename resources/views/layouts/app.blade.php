@@ -23,10 +23,10 @@
 
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/pdf_js_lib/pdf.js') }}"></script>
-    <link href="{{asset('css/loader_css/phone_style.css')}}" rel="stylesheet">
-    <link href="{{asset('css/loader_css/tablet_style.css')}}" rel="stylesheet">
-    <link href="{{asset('css/loader_css/desktop_style.css')}}" rel="stylesheet">
 
+    <link href="{{asset('css/loader_css/desktop_style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/loader_css/tablet_style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/loader_css/phone_style.css')}}" rel="stylesheet">
 
 </head>
 <body>
