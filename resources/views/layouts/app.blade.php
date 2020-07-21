@@ -25,19 +25,22 @@
     <script src="{{ asset('js/pdf_js_lib/pdf.js') }}"></script>
 
     <style>
-        .loading_container{
+@media only screen and (max-width: 720px) {
+    .loading_container{
             padding:0;
             margin:0;
             width:100%;
-            height:100vh;
+            height:100%;
             position: fixed;
             z-index: 99999;
+            background: #ffffff;
         }
+
 
         .sk-cube-grid {
         width: 40px;
         height: 40px;
-        margin: 100px auto;
+        margin: 100% auto;
         }
 
         .sk-cube-grid .sk-cube {
@@ -95,6 +98,8 @@
                     transform: scale3D(0, 0, 1);
         }
         }
+}
+
     </style>
 
 </head>
@@ -174,11 +179,11 @@
 
 {{-- ************************************************************************************ --}}
     <script>
-        $(document).ready(function() {
-            setTimeout(function(){
-                $(".loading_container").fadeOut("slow");
-                    },3000);
-        });
+        // $(document).ready(function() {
+        //     setTimeout(function(){
+        //         $(".loading_container").fadeOut("slow");
+        //             },1000);
+        // });
 
     </script>
 </body>
