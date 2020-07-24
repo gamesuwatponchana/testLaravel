@@ -24,3 +24,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/test', function(){
     return view('pdfTest');
 });
+
+Route::get('/welcome',function(){
+    return view('ppr3welcome');
+});

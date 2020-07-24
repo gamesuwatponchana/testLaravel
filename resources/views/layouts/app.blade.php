@@ -25,6 +25,7 @@
     <script src="{{ asset('js/pdf_js_lib/pdf.js') }}"></script>
 
     <link href="{{asset('css/loader_css/loader_style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/cover_page28jul.css')}}" rel="stylesheet">
 
 </head>
 <body>
@@ -40,6 +41,16 @@
             <div class="sk-cube sk-cube8"></div>
             <div class="sk-cube sk-cube9"></div>
           </div>
+    </div>
+
+    <div class="cover28jul_container" id="closeCover28jul">
+        <div class="cover28jul_minicontainer">
+            <span class="closebtn" onclick="closeCover28jul()">ข้าม</span>
+            <a href="https://web.ocsc.go.th/forking" >
+                <img src="https://www.ocsc.go.th/sites/default/files/field/image/forking-create-02-tn.jpg" />
+            </a>
+        </div>
+
     </div>
 
 
@@ -103,12 +114,15 @@
 
 {{-- ************************************************************************************ --}}
     <script>
-        // $(document).ready(function() {
-        //     setTimeout(function(){
-        //         $(".loading_container").fadeOut("slow");
-        //             },1000);
-        // });
+        $(document).ready(function() {
+            setTimeout(function(){
+                $(".loading_container").fadeOut("slow");
+                    },1200);
+        });
 
+        function closeCover28jul() {
+            document.getElementById("closeCover28jul").style.display = "none";
+        }
     </script>
 </body>
 </html>
