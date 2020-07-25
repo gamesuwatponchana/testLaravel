@@ -1,215 +1,1064 @@
-/* Extra small devices (phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 300px) {
     .cover28jul_container{
         padding:0;
         margin:0;
+        left: 0;
+        top: 0;
         width:100%;
         height:100%;
         position: fixed;
         z-index: 9999;
         background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     }
-    .cover28jul_content{
+
+    .cover28jul_minicontainer{
+        margin: 100% auto;
         text-align: center;
-        width: auto;
-        height: auto;
     }
+
     .cover28jul_img{
-        width:100%;
-        margin :70% auto;
+        width:90%;
     }
     /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
     .closebtn {
-        position: absolute;
-        position: absolute;
-        top: 350px;
-        right: 0px;
-        font-size: 60px;
-      }
-      .button {
         background-color: #b38b27; /* golden */
         border: none;
         color: white;
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
       }
 
-      .button1 {
+
+      .closebtn:hover {
         background-color: white;
         color: black;
-        border: 2px solid #b38b27;
-      }
-
-      .button1:hover {
-        background-color: #b38b27;
-        color: white;
       }
 }
+/* ******************************************************************************************** */
+@media only screen and (min-width: 300px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+    .cover28jul_minicontainer{
+        margin: 60% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:90%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 10%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 350px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 59% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width: 90%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 9%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+    .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 400px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 59% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:90%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        /* margin: auto 3%; */
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 450px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 50% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:90%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 500px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:45%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 550px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:60%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 6%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
 @media only screen and (min-width: 600px) {
     .cover28jul_container{
         padding:0;
         margin:0;
+        left: 0;
+        top: 0;
         width:100%;
         height:100%;
         position: fixed;
         z-index: 9999;
         background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     }
-    .cover28jul_content{
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
         text-align: center;
-        width: auto;
-        height: auto;
     }
+
     .cover28jul_img{
-        margin:50% 18% ;
+        width: 65%;
     }
     /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 4%;
+    }
+
     .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
-      }
-      .button {
         background-color: #b38b27; /* golden */
         border: none;
         color: white;
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
       }
 
-      .button1 {
+
+      .closebtn:hover {
         background-color: white;
         color: black;
-        border: 2px solid #b38b27;
-      }
-
-      .button1:hover {
-        background-color: #b38b27;
-        color: white;
       }
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* ******************************************************************************************** */
+@media only screen and (min-width: 650px) {
     .cover28jul_container{
         padding:0;
         margin:0;
+        left: 0;
+        top: 0;
         width:100%;
         height:100%;
         position: fixed;
         z-index: 9999;
         background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     }
-    .cover28jul_content{
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
         text-align: center;
-        width: auto;
-        height: auto;
     }
+
     .cover28jul_img{
-        margin:55% 18% ;
+        width:60%;
     }
     /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
     .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
-      }
-      .button {
         background-color: #b38b27; /* golden */
         border: none;
         color: white;
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
       }
 
-      .button1 {
+
+      .closebtn:hover {
         background-color: white;
         color: black;
-        border: 2px solid #b38b27;
-      }
-
-      .button1:hover {
-        background-color: #b38b27;
-        color: white;
       }
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* ******************************************************************************************** */
+@media only screen and (min-width: 700px) {
     .cover28jul_container{
         padding:0;
         margin:0;
+        left: 0;
+        top: 0;
         width:100%;
         height:100%;
         position: fixed;
         z-index: 9999;
         background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     }
-    .cover28jul_content{
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
         text-align: center;
-        width: auto;
-        height: auto;
     }
+
     .cover28jul_img{
-        margin:55% 15% ;
-        width: 70%;
+        width: 65%;
     }
     /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
     .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
-      }
-      .button {
         background-color: #b38b27; /* golden */
         border: none;
         color: white;
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
       }
 
-      .button1 {
+
+      .closebtn:hover {
         background-color: white;
         color: black;
-        border: 2px solid #b38b27;
-      }
-
-      .button1:hover {
-        background-color: #b38b27;
-        color: white;
       }
 }
+/* ******************************************************************************************** */
+@media only screen and (min-width: 750px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+    .cover28jul_minicontainer{
+        margin: 50% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:75%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 800px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 11% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:60%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 850px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:45%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 900px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:45%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 950px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:45%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 1000px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 24% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:75%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+/* Width For ipad  */
+@media only screen and (min-width: 1024px) and (min-height: 768px) and (max-width: 1024px) and (max-height: 768px){
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 24% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:75%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 1050px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:45%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 1100px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:45%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+@media only screen and (min-width: 1150px) {
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:45%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
 @media only screen and (min-width: 1200px) {
     .cover28jul_container{
         padding:0;
@@ -224,18 +1073,73 @@
     }
 
     .cover28jul_minicontainer{
-        margin-top: 100px;
-        margin-bottom: 100px;
-        margin-right: 150px;
-        margin-left: 80px;
-        width: 80%;
+        margin: 15% auto;
+        text-align: center;
     }
 
     .cover28jul_img{
-        margin: 15% 28% ;
-        width:45%;
+        width:50%;
     }
     /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
+
+    .closebtn {
+        background-color: #b38b27; /* golden */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        color: white;
+        border: 2px solid #b38b27;
+        position: relative;
+        right: 35px;
+        top: 0;
+      }
+
+
+      .closebtn:hover {
+        background-color: white;
+        color: black;
+      }
+}
+/* ******************************************************************************************** */
+/* Resolution For Ipad Pro */
+@media only screen and (min-width: 	1366px) and (min-height: 1024px) and (max-width:1366px) and (max-height: 1024px){
+    .cover28jul_container{
+        padding:0;
+        margin:0;
+        left: 0;
+        top: 0;
+        width:100%;
+        height:100%;
+        position: fixed;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    }
+
+    .cover28jul_minicontainer{
+        margin: 17% auto;
+        text-align: center;
+    }
+
+    .cover28jul_img{
+        width:75%;
+    }
+    /****************************************************************************************/
+    .divclosebtn{
+        width: 100%;
+        text-align: center;
+        margin: auto 3%;
+    }
 
       .closebtn {
         background-color: #b38b27; /* golden */
@@ -248,8 +1152,7 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        background-color: white;
-        color: black;
+        color: white;
         border: 2px solid #b38b27;
         position: relative;
         right: 35px;
@@ -258,7 +1161,7 @@
 
 
       .closebtn:hover {
-        background-color: #b38b27;
-        color: white;
+        background-color: white;
+        color: black;
       }
 }

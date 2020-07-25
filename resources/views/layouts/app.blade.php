@@ -45,12 +45,13 @@
 
     <div class="cover28jul_container" id="closeCover28jul">
         <div class="cover28jul_minicontainer">
-            <span class="closebtn" onclick="closeCover28jul()">ข้าม</span>
-            <a href="https://web.ocsc.go.th/forking" >
-                <img src="https://www.ocsc.go.th/sites/default/files/field/image/forking-create-02-tn.jpg" />
+            <a href="https://web.ocsc.go.th/forking" style="width: 100%">
+                <img class="cover28jul_img" src="https://www.ocsc.go.th/sites/default/files/field/image/forking-create-02-tn.jpg" />
             </a>
+            <div class="divclosebtn">
+                <button class="closebtn" onclick="closeCover28jul()">เข้าสู่เว็บไซต์</button>
+            </div>
         </div>
-
     </div>
 
 
