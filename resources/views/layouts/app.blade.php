@@ -25,7 +25,7 @@
     <script src="{{ asset('js/pdf_js_lib/pdf.js') }}"></script>
 
     <link href="{{asset('css/loader_css/loader_style.css')}}" rel="stylesheet">
-    <link href="{{asset('css/cover_page28jul.css')}}" rel="stylesheet">
+    {{-- <link href="{{asset('css/cover_page28jul.css')}}" rel="stylesheet"> --}}
 
 </head>
 <body>
@@ -43,7 +43,7 @@
           </div>
     </div>
 
-    <div class="cover28jul_container" id="closeCover28jul">
+    {{-- <div class="cover28jul_container" id="closeCover28jul">
         <div class="cover28jul_minicontainer">
             <a href="https://web.ocsc.go.th/forking" style="width: 100%">
                 <img class="cover28jul_img" src="https://www.ocsc.go.th/sites/default/files/field/image/forking-create-02-tn.jpg" />
@@ -52,7 +52,7 @@
                 <button class="closebtn" onclick="closeCover28jul()">เข้าสู่เว็บไซต์</button>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
 
