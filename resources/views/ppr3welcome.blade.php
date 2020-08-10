@@ -19,16 +19,20 @@
                 background-image: url('{{ asset("image_icon/images/theme/Q_/q_bg_002.png") }}');
                 background-position: center;
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: auto;
                 /* background-color: #b38b27; */
                     /* background-color: #b380b8; */
                 }
+                .bg_container{
+                    height: 82%;
+                }
+
                 .bg {
                     /* The image used */
                     background-image: url('{{ asset("image_icon/images/theme/Q_/q-coverpage001.png") }}');
                     /* background-image: url('../../image/theam/queen/queencover001.png'); */
                     width: 100%;
-                    height: auto;
+                    height: 300px;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: contain;
@@ -61,14 +65,17 @@
                 /* background-color: #b38b27; */
                     /* background-color: #b380b8; */
                 }
+                .bg_container{
+                    height: 82%;
+                }
                 .bg {
                     /* The image used */
                     background-image: url('{{ asset("image_icon/images/theme/Q_/q-coverpage001.png") }}');
                     /* background-image: url('../../image/theam/queen/queencover001.png'); */
-                    height: 82%;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: contain;
+                    height: 100%;
                     /* margin-top: -30px; */
                     /* Center and scale the image nicely */
                 }
@@ -94,7 +101,10 @@
 
 	</head>
 	<body>
-        <div class="bg"></div>
+        <div class="bg_container">
+                <div class="bg"></div>
+        </div>
+
         {{-- <br> --}}
         <div class="enter">
             <a href=""><img class="img_enter" src="{{ asset('image_icon/images/theme/Q_/q_enter_site.png') }}"></a>
