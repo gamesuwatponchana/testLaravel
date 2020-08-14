@@ -115,15 +115,15 @@
 
 {{-- ************************************************************************************ --}}
     <script>
-        // $(document).ready(function() {
-        //     setTimeout(function(){
-        //         $(".loading_container").fadeOut("slow");
-        //             },1200);
-        // });
+        $(document).ready(function() {
+            setTimeout(function(){
+                $(".loading_container").fadeOut("slow");
+                    },1200);
+        });
 
-        // function closeCover28jul() {
-        //     document.getElementById("closeCover28jul").style.display = "none";
-        // }
+        function closeCover28jul() {
+            document.getElementById("closeCover28jul").style.display = "none";
+        }
     </script>
 </body>
 </html>

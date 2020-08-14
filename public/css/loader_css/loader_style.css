@@ -8,7 +8,7 @@
         z-index: 99999;
         background: #ffffff;
 }
-/* Max-Height 240px ----------------------------------------------------------------------------------------*/
+/* Max-Height 240px -----------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 352px) and (max-height: 240px) {
 
         .sk-cube-grid {
@@ -120,7 +120,7 @@
         }
 
 }
-/* Min-Height 240px ----------------------------------------------------------------------------------------*/
+/* Min-Height 240px -----------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 352px) and (min-height: 240px) {
 
         .sk-cube-grid {
@@ -218,7 +218,7 @@
         .sk-cube-grid {
         width: 40px;
         height: 40px;
-        margin: 8% auto;
+        margin: 5% auto;
         }
 
 }
@@ -228,41 +228,1023 @@
         .sk-cube-grid {
         width: 40px;
         height: 40px;
-        margin: 8% auto;
+        margin: 4% auto;
         }
 
 }
-/* Min-Height 352px ----------------------------------------------------------------------------------------*/
+/* Min-Height 352px --------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 352px) and (min-height: 352px) {
 
-/* Min-Height 480px ----------------------------------------------------------------------------------------*/
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 53% auto;
+        }
 
-/* Min-Height 487px ----------------------------------------------------------------------------------------*/
 
-/* Min-Height 600px ----------------------------------------------------------------------------------------*/
+    }
 
-/* Min-Height 720px ----------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 352px) and (min-height: 352px) {
 
-/* Min-Height 768px ----------------------------------------------------------------------------------------*/
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 49% auto;
+    }
 
-/* Min-Height 960px ----------------------------------------------------------------------------------------*/
 
-/* Min-Height 1080px ----------------------------------------------------------------------------------------*/
+}
 
-/* Min-Height 1200px ----------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 600px) and (min-height: 352px)  {
 
-/* Min-Height 1392px ----------------------------------------------------------------------------------------*/
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 24% auto;
+    }
 
-/* Min-Height 1440px ----------------------------------------------------------------------------------------*/
+}
 
-/* Min-Height 1536px ----------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 768px) and (min-height: 352px)  {
 
-/* Min-Height 1836px ----------------------------------------------------------------------------------------*/
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 20% auto;
+    }
 
-/* Min-Height 1920px ----------------------------------------------------------------------------------------*/
+}
 
-/* Min-Height 2560px ----------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 992px) and (min-height: 352px)  {
 
-/* Min-Height 3840px ----------------------------------------------------------------------------------------*/
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 19% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 352px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 14% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 352px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 12% auto;
+        }
+
+    }
+
+@media only screen and (min-width: 1600px) and (min-height: 352px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 12% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 352px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 9.5% auto;
+        }
+
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 352px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 7% auto;
+        }
+
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 352px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 6% auto;
+        }
+
+}
+/* Min-Height 480px ------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 352px) and (min-height: 480px) {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 83% auto;
+        }
+
+
+    }
+
+@media only screen and (min-width: 352px) and (min-height: 480px) {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 56% auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (min-height: 480px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 40% auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (min-height: 480px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 30% auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (min-height: 480px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 23% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 480px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 19% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 480px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 16% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1600px) and (min-height: 480px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 14% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 480px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 12% auto;
+        }
+
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 480px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 9% auto;
+        }
+
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 480px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 7.5% auto;
+        }
+}
+/* Min-Height 560px --------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 352px) and (min-height: 560px) {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 76% auto;
+        }
+
+
+    }
+
+@media only screen and (min-width: 352px) and (min-height: 560px) {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 67% auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (min-height: 560px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 39% auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (min-height: 560px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 32% auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (min-height: 560px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 25% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 560px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 21% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 560px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 18% auto;
+        }
+
+    }
+
+@media only screen and (min-width: 1600px) and (min-height: 560px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 16% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 560px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 13% auto;
+        }
+
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 560px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 10% auto;
+        }
+
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 560px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 7.5% auto;
+        }
+}
+/* Min-Height 600px ------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 352px) and (min-height: 600px) {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 77% auto;
+        }
+
+
+    }
+
+@media only screen and (min-width: 352px) and (min-height: 600px) {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 68% auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (min-height: 600px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 40% auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (min-height: 600px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 33% auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (min-height: 600px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 26% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 600px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 22% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 600px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 19% auto;
+        }
+
+    }
+
+@media only screen and (min-width: 1600px) and (min-height: 600px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 17% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 600px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 14% auto;
+        }
+
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 600px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 11% auto;
+        }
+
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 600px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 8.5% auto;
+        }
+}
+/* Min-Height 720px -------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 352px) and (min-height: 720px) {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 105% auto;
+        }
+
+
+}
+
+@media only screen and (min-width: 352px) and (min-height: 720px) {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 87% auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (min-height: 720px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 53% auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (min-height: 720px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 40% auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (min-height: 720px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 33% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 720px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 27% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 720px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 22% auto;
+        }
+
+    }
+
+@media only screen and (min-width: 1600px) and (min-height: 720px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 19% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 720px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 16% auto;
+        }
+
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 720px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 13% auto;
+        }
+
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 720px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 10% auto;
+        }
+}
+/* Min-Height 768px ---------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 352px) and (min-height: 768px) {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 133% auto;
+        }
+
+
+    }
+
+@media only screen and (min-width: 352px) and (min-height: 768px) {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 100% auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (min-height: 768px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 66% auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (min-height: 768px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 52% auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (min-height: 768px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 36% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 768px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 34% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 768px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 28% auto;
+        }
+
+    }
+
+@media only screen and (min-width: 1600px) and (min-height: 768px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 26% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 768px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 20% auto;
+        }
+
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 768px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 16% auto;
+        }
+
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 768px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 10.5% auto;
+        }
+}
+/* Min-Height 960px ---------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 352px) and (min-height: 960px) {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 165% auto;
+        }
+
+
+}
+
+@media only screen and (min-width: 352px) and (min-height: 960px) {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 117% auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (min-height: 960px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 76% auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (min-height: 960px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 62% auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (min-height: 960px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 45% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 960px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 36% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 960px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 33% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1600px) and (min-height: 960px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 30% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 960px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 24% auto;
+        }
+
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 960px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 17% auto;
+        }
+
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 960px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 14% auto;
+        }
+}
+/* Min-Height 1080px ---------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 352px) and (min-height: 1080px) {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 185% auto;
+        }
+
+
+}
+
+@media only screen and (min-width: 352px) and (min-height: 1080px) {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 145% auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (min-height: 1080px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 90% auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1080px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 71% auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (min-height: 1080px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 55% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 1080px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 42% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 1080px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 37% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1600px) and (min-height: 1080px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 33% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 28% auto;
+        }
+
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 1080px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 19% auto;
+        }
+
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 1080px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 15% auto;
+        }
+}
+/* Min-Height 1200px ---------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 352px) and (min-height: 1200px) {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 133% auto;
+        }
+
+
+}
+
+@media only screen and (min-width: 352px) and (min-height: 1200px) {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 100% auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (min-height: 1200px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 53% auto;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (min-height: 1200px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 40% auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (min-height: 1200px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 65% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 1200px)  {
+
+    .sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 27% auto;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) and (min-height: 1200px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 22% auto;
+        }
+
+    }
+
+@media only screen and (min-width: 1600px) and (min-height: 1200px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 19% auto;
+        }
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1200px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 16% auto;
+        }
+
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 1200px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 13% auto;
+        }
+
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 1200px)  {
+
+        .sk-cube-grid {
+        width: 40px;
+        height: 40px;
+        margin: 10% auto;
+        }
+}
+/* Min-Height 1392px ---------------------------------------------------------------------------------------------------------------------*/
+
+/* Min-Height 1440px ---------------------------------------------------------------------------------------------------------------------*/
+
+/* Min-Height 1536px ---------------------------------------------------------------------------------------------------------------------*/
+
+/* Min-Height 1836px ---------------------------------------------------------------------------------------------------------------------*/
+
+/* Min-Height 1920px ---------------------------------------------------------------------------------------------------------------------*/
+
+/* Min-Height 2560px ---------------------------------------------------------------------------------------------------------------------*/
+
+/* Min-Height 3840px ---------------------------------------------------------------------------------------------------------------------*/
 
 
 /* Grid Effect Layout */

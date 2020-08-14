@@ -21,6 +21,18 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
+Route::resource('contact', 'ContactController');
+
+
+
+
+
+
+
+
+
+//test****************************************************************************************
 Route::get('/test', function(){
     return view('pdfTest');
 });
