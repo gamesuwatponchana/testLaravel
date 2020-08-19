@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('asset_addition')
+    <link rel="stylesheet" href="{{asset('css/btn-style.css')}}">
+@endsection
+
 @section('content')
 
 <div class="container">
@@ -8,7 +12,7 @@
                 <div class="card">
                     <div class="card-header">ข้อมูลติดต่อลูกค้า</div>
                     <div class="card-body">
-                        <a href="/contact/create">สร้าง</a>
+                        <a href="/contact/create" class="btn_link btn_link1">สร้าง</a>
                         <br><br>
 
                         <div class="table-responsive-md">
