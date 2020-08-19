@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Contact;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -13,7 +14,9 @@ class ContactController extends Controller
      */
     public function index()
     {
-        //
+        $count = 1 ;
+        $data = Contact::all();
+        return view('contact.index', compact( ['data'] ))->with('count',$count);
     }
 
     /**
@@ -34,7 +37,13 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required|min:10|max:10'
+        ]);
+        Contact::create($request->all());
+        return redirect('/contact');
     }
 
     /**
