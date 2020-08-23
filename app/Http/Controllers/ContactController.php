@@ -65,7 +65,11 @@ class ContactController extends Controller
      */
     public function edit($id)
     {
-        //
+        $data = Contact::find($id);
+        // dd($data);
+        $view = view('contact.edit');
+        $view->with(compact(['data']));
+        return $view ;
     }
 
     /**
@@ -77,7 +81,13 @@ class ContactController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required|min:10|max:10'
+        ]);
+        Contact::find($id)->update( $request->all() );
+        return redirect('/contact');
     }
 
     /**

@@ -10,16 +10,19 @@
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="card">
-                         <div class="card-header">Contact สร้าง</div>
+                         <div class="card-header">Contact แก้ไข</div>
 
                         <div class="card-body">
                             <a href="/contact" class="btn_link btn_link1">หน้าหลัก</a>
                             <br><br>
 
-                            {!! Form::open(['action' => 'ContactController@store','method'=>'POST']) !!}
+                            {!! Form::open([  'action' =>['ContactController@update', $data->id  ],
+                                              'method'=>'PUT'
+                                           ])        !!}
+                                           
                             <div class="col-md-6">
                                 <div class="form__group field">
-                                    {!! Form::text('name', null, ['class'=>'form__field','placeholder'=>'กรอกชื่อ','id'=>'name']) !!}
+                                    {!! Form::text('name', $data->name, ['class'=>'form__field','placeholder'=>'กรอกชื่อ','id'=>'name']) !!}
                                     {!! Form::label('name','Name', ['class'=>'form__label']) !!}
                                 </div>
                                     @if ($errors->has('name'))
@@ -35,7 +38,7 @@
                                     @endif
 
                                 <div class="form__group field">
-                                    {!! Form::text('email', null, ['class'=>'form__field','placeholder'=>'กรอกอีเมล','id'=>'email']) !!}
+                                    {!! Form::text('email', $data->email, ['class'=>'form__field','placeholder'=>'กรอกอีเมล','id'=>'email']) !!}
                                     {!! Form::label('email','E-Mail Address', ['class'=>'form__label']) !!}
                                 </div>
                                     @if ($errors->has('email'))
@@ -51,7 +54,7 @@
                                     @endif
 
                                 <div class="form__group field">
-                                    {!! Form::text('phone', null, ['class'=>'form__field','placeholder'=>'กรอกเบอร์โทรศัพท์','id'=>'phone']) !!}
+                                    {!! Form::text('phone', $data->phone, ['class'=>'form__field','placeholder'=>'กรอกเบอร์โทรศัพท์','id'=>'phone']) !!}
                                     {!! Form::label('phone','Phone', ['class'=>'form__label']) !!}
                                 </div>
                                     @if ($errors->has('phone'))
@@ -67,7 +70,7 @@
                                     @endif
                                 <br>
                                 <br>
-                                <input type="submit" value="บันทึก" class="button1">
+                                <input type="submit" value="แก้ไข" class="button1">
                                 <br>
                                 <br>
 

@@ -24,6 +24,8 @@
                                         <th>ชื่อ</th>
                                         <th>อีเมล</th>
                                         <th>เบอร์โทรศัพท์</th>
+                                        <th>แก้ไข</th>
+                                        <th>ลบ</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -34,6 +36,12 @@
                                             <td>{{$row->name}}</td>
                                             <td>{{$row->email}}</td>
                                             <td>{{$row->phone}}</td>
+                                            <td>
+                                            <a href="{{route('contact.edit',$row->id)}}" class="btn btn-success">แก้ไข</a>
+                                            </td>
+                                            <td>
+                                                <a href="http://" class="btn btn-danger">ลบ</a>
+                                            </td>
                                         </tr>
                                     @endforeach
 
